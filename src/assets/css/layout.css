@@ -1,0 +1,413 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    color: #666;
+    font-size: 12px;
+    margin: 0;
+}
+
+.left-align{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#nav-wrapper{
+    height: auto;
+    background-color: #587e8d;
+    border-bottom: solid 6px rgba(127,154,160,0.2);
+}
+
+#nav-band{
+    color: #ffffff;
+    height: 65px;
+    width: 100%;
+    font-size: 24px;
+    padding-top: 20px;
+    margin-left: 5rem!important;
+    margin-bottom: 16px!important;
+    font-family: "Times";
+}
+
+#search{
+    padding-top:0px;
+    /* padding-left: 100px; */
+}
+
+#search ul li{
+    list-style: none;
+    vertical-align: middle;
+}
+
+button.newssearchbtn, input.newssearchfield[type=text] {
+    background-clip: padding-box;
+    background-color: rgba(255,255,255,.85);
+    border: 3px solid rgba(255,255,255,.95);
+    border-radius: 0;
+    color: #333;
+    display: inline-block;
+    height: auto;
+    line-height: normal;
+    margin: 0 0 3px;
+    padding: 6px;
+}
+
+#top-bar{
+    align-items: center;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.menu{
+    display: flex;
+    text-align: right;
+    float: none;
+    height: 45px;
+    background-color: #587e8d;
+    margin-bottom: 0;
+}
+
+
+.menu ul#level1 {
+    float: left;
+    box-sizing: border-box;
+    font-size: 1rem;
+    height: 45px;
+    vertical-align: top;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 4rem!important;
+}
+
+.menu li a.level1:first-child{
+    color: #ffffff;
+    padding-left: 1.5rem;
+    padding-right: 1.8rem;
+    display: block;
+    line-height: 2.1rem;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: #576571;
+    margin-bottom: 0;
+}
+
+.menu li{
+    display:inline-block;
+    margin:0;
+    padding:0;
+}
+
+
+
+/* #banner img {
+    margin: 0px auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+} */
+
+
+#aboutus{
+    font-size: 1.0625rem;
+    line-height: 150%;
+    color: #282829;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#aboutus h3{
+    font-size: 2.13rem;
+    line-height: 2.25rem;
+    padding: 22px 0px 4px 0px;
+    margin-top: 0;
+    font-weight: 600;
+    font-family: "Stag Sans Book";
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+#aboutus p{
+    font-family:"Times New Roman";
+    color: #282829;
+    font-size: 1.0625rem;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+
+
+#read{
+    /* display: inline-block; */
+    display: inline-flex; 
+    background-color: #fbf6ef;
+}
+
+#mms {
+    font-family: "Stag Sans Light";
+    padding-right: 4rem;
+    padding-left: 2.25rem;
+    float: left;
+}
+
+
+#show{
+    padding-left: 60px;
+    position: relative;
+    padding: 4px;
+    height: auto;
+    /* max-width: 1280px; */
+    float: right;
+}
+
+#show video{
+    height: 400px;
+    width: auto;
+}
+
+
+#company{
+    padding-top: 1rem;
+    padding-bottom: 1.0625rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 30 0 1rem 0;
+    font-family: inherit;
+    padding: 1em 1.7em 1em 1.7em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-transition: background-color .25s ease-out,color .25s ease-out;
+    transition: background-color .25s ease-out,color .25s ease-out;
+    font-size: .9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #2f329f;
+    color: #fefefe;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-clip: padding-box;
+    /* background-image: url(../images/system/btn-over-15.png); */
+    background-repeat: no-repeat;
+    background-position: -7px -7px;
+    text-decoration: none!important;
+}
+
+#logo{
+    width: 40px;
+    height: 80px;
+    background-color: red;
+}
+
+#foot{
+    color: white;
+    font-family: "Stag Sans Light";
+    line-height: 20px;
+    /* max-width: 1200px; */
+    width: auto;
+    height: auto;
+    background-color:#63707b;
+}
+
+#foot ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#foot a{
+    color: white;
+    text-decoration: none;
+}
+
+#foot a:hover{
+    text-decoration: underline;
+}
+
+#foot ul li{
+    text-align: -webkit-match-parent;
+}
+
+
+#foot h3{
+    line-height: 2.1em;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+
+
+.col1{
+    padding-left: 12.25rem;
+    flex: 1;
+}
+
+.col2,.col3, .col4{
+    padding-left: 2.25rem;
+    flex: 1;
+}
+
+
+
+#foot .fbox{
+    clear: both;
+    margin: 0px auto;
+    padding: 10px 0px;
+    background-color:#63707b;
+    display: flex;
+    flex-basis: 0;
+}
+
+.ico1, .ico2,  .ico3{
+    display: block;
+    padding-left: 24px;
+}
+
+.ico1{
+    background: url(../ico/tel.svg) no-repeat;
+    background-size: 18px 18px;
+}
+
+
+#product {
+    background-color: #fafafa;
+    margin-bottom: 2.75rem!important;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-bottom: 20px; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+
+
+.column{
+    flex: 1 0 21%; /* explanation below */
+    /* margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 32px; */
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 32px;
+    border-left: #63707b;
+    border-width: 1px;
+}
+
+.column ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.column li{
+    display: list-item;
+    text-align:left;
+    text-align: -webkit-match-parent;
+    margin-left: 0;
+}
+
+.column li a{
+    color: #f47321;
+    cursor: pointer;
+}
+
+.gateway-caption-group {
+    width: 100%;
+    max-width: 300px;
+}
+
+.gateway-caption-group img{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+
+
+#copyright{
+    background-color: black;
+    color: white;
+}
+
+
+
+.tbox img{
+    height: 300px;
+    width: 400px;
+}
+
+section:after {
+    content: ".";
+    display: block;
+    height: 40;
+    clear: both;
+    visibility: hidden;
+}
+
+#banner::after{
+    content: ".";
+    display: block;
+    height: 80;
+    clear: both;
+    visibility: hidden;
+}
+
+
+
+.mms h3{
+    font-size: 1.7rem;
+    line-height: 1.25rem;
+    padding: 22px 0px 4px 0px;
+    font-weight: 600;
+    color: black;
+    font-family: "Stag Sans Book";
+    margin-bottom: 10px;
+    /* text-decoration: underline; */
+}
+
+.section_h3{
+    margin-left: 5%;
+}
+
+
+#contact{
+    color: black;
+}
+
+.bg-image{
+    display: block;
+    height: 400px;
+    /* background-size: cover; */
+    /* background-image:  url('../as_bg2.jpg');  */
+    background-image:  url('../about.png'); 
+    background-color: transparent; 
+    background-position: 50% 50%;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+} 
+
+
+#contact h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2.1rem;
+    /* letter-spacing: 1px; */
+}
+
+#contact p{
+    text-align: center;
+}
