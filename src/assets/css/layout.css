@@ -274,10 +274,10 @@ button.newssearchbtn, input.newssearchfield[type=text] {
     padding-left: 24px;
 }
 
-.ico1{
+/* .ico1{
     background: url(../ico/tel.svg) no-repeat;
     background-size: 18px 18px;
-}
+} */
 
 
 #product {
@@ -395,7 +395,7 @@ section:after {
     background-image:  url('../about.png'); 
     background-color: transparent; 
     background-position: 50% 50%;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-repeat: no-repeat;
     /* background-size: cover; */
 } 

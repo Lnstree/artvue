@@ -86,10 +86,11 @@
                       <div class="col4">
                           <h3 class="pro-title">Visit</h3>
                           <ul class="list-inline article-list">
-                              <li class="" id=""><a
-                                      href="https://www.customsilkscarfs.com/">customsilkscarfs.com</a></li>
-                              <li class="" id=""><a href="https://silkcity.en.alibaba.com/">silkcity
-                                      alibaba</a></li>
+                            <li> <img :src="alibaba_ico" /> 
+                            <a href="https://www.customsilkscarfs.com/">customsilkscarfs.com</a></li>
+                              <li class="" id="">
+                              <img :src="custom_ico" />
+                                <a href="https://silkcity.en.alibaba.com/">silkcity alibaba</a></li>
                           </ul>
                       </div>
                   </div>
@@ -111,10 +112,26 @@
   width: 100px;
 }
 
+.col4 li {
+  margin-bottom: 4%;
+}
+
+.col4 li img {
+vertical-align: middle;
+}
+
+
 </style>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+data () {
+  return {
+    alibaba_ico: require('@/assets/ico/alibaba.ico'),
+    custom_ico: require('@/assets/ico/customsilkscarfs.ico')
+  }
+},
+
 }
 </script>
