@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import './assets/css/layout.css'
-import './assets/css/generic.css'
+// import './assets/css/generic.css'
 import '@/components/install.js'
 
 

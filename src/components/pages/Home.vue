@@ -1,8 +1,10 @@
 <template>
   <section>
+
+    <!-- 横幅 -->
     <div id="banner">
       <div>
-        <div id="banner_img">
+        <div id="bimage">
           <div style="width:100%;height:100%">
             <slider ref="slider" :options="options">
               <slideritem
@@ -18,6 +20,7 @@
       </div>
     </div>
 
+    <!-- 关于我们 -->
     <div id="aboutus">
       <div id="read">
         <div id="mms">
@@ -351,21 +354,18 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#banner_img {
+
+
+/* 横幅 */
+#bimage{
   width: 100%;
   height: 700px;
   position: relative;
 }
 
-.title {
-
-}
-
 .body-text{
   font-size: 1.5em;
-  /* color:#fff; */
 }
 
 .learnmore a{
@@ -378,16 +378,6 @@ export default {
 
 .learnmore a:hover{
     text-decoration: underline;
-}
-
-
-#banner_btn {
-  margin-left: 0;
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  z-index: 120;
 }
 
 #info {
@@ -453,9 +443,7 @@ export default {
   #news-list {
     margin: 0;
     column-fill: auto;
-    /* column-count: 2; */
     -moz-column-fill: auto;
-    /* -moz-column-count: 2; */
   }
 }
 
