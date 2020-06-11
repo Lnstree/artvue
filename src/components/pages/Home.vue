@@ -63,7 +63,7 @@
           <div>
             <img
               alt="Custom Silk Scarf"
-              src="@/assets/img/customscarf/pure.jpg"
+              src="@/assets/img/home_product/custom_silk_scarf.jpg"
             />
           </div>
           <h1 class="">
@@ -86,7 +86,7 @@
         <div class="gateway-caption-group">
           <div>
             <img alt="Silk Shawl" 
-            src="@/assets/img/scarf/no2.jpg" />
+            src="@/assets/img/home_product/wholesale_scarves.jpg" />
           </div>
           <h1 class="">
             <span>Silk Shawl</span>
@@ -107,7 +107,7 @@
         <div class="gateway-caption-group">
           <div>
             <img alt="Cashmere Wool Scarf" 
-            src="@/assets/img/cashmere/no1.jpg" />
+            src="@/assets/img/home_product/cashmere.jpg" />
           </div>
           <h1 class="">
             <span>Cashmere Wool Scarf</span>
@@ -127,7 +127,7 @@
       <div class="column ">
         <div class="gateway-caption-group">
           <div>
-            <img alt="Pajamas" src="@/assets/img/pajamas/lover-pajama.jpg" />
+            <img alt="Pajamas" src="@/assets/img/home_product/pajamas.jpg" />
           </div>
 
           <h1 class="">
@@ -148,7 +148,7 @@
         <div class="gateway-caption-group">
           <div>
             <a href="">
-              <img alt="Custom Tie" src="@/assets/img/tie/tie1.jpg" />
+              <img alt="Custom Tie" src="@/assets/img/home_product/custom_tie.jpg" />
             </a>
           </div>
           <h1 class="">
@@ -168,7 +168,7 @@
       <div class="column ">
         <div class="gateway-caption-group">
           <div>
-            <img alt="Wholesale Scarves" src="@/assets/img/scarf/no1.jpg" />
+            <img alt="Wholesale Scarves" src="@/assets/img/home_product/wholesale_scarves.jpg" />
           </div>
           <h1 class="">
             <span>Wholesale Scarves</span>
@@ -186,7 +186,7 @@
       <div class="column ">
         <div class="gateway-caption-group">
           <div>
-            <img alt="Sleep Mask" src="@/assets/img/sleepmask/no1.jpg" />
+            <img alt="Sleep Mask" src="@/assets/img/home_product/sleepmask.jpg" />
           </div>
 
           <h1 class="project_class">
@@ -205,7 +205,7 @@
       <div class="column ">
         <div class="gateway-caption-group">
           <div>
-            <img alt="Men Scarf" src="@/assets/img/tie/tie3.jpg" />
+            <img alt="Men Scarf" src="@/assets/img/home_product/tie.jpg" />
           </div>
           <h1 class="">
             <span>Men Scarf</span>
@@ -276,9 +276,9 @@
 <script>
 import { slider, slideritem } from "vue-concise-slider";
 import GLOBAL from "@/config/global_var.js";
-import bg1 from "@/assets/conver/3.jpg";
-import bg2 from "@/assets/conver/4.jpg";
-import bg3 from "@/assets/conver/5.jpg";
+import bg1 from "@/assets/img/cover/3.jpg";
+import bg2 from "@/assets/img/cover/4.jpg";
+import bg3 from "@/assets/img/cover/5.jpg";
 
 let info = GLOBAL.BB_Info;
 let host = info.host;

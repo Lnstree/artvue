@@ -1,7 +1,7 @@
 <template>
   <div id="about-container">
     <div>
-      <img src="@/assets/news/cover1.jpg" alt="" />
+      <img src="@/assets/img/cover/200_800.jpg" alt="" />
     </div>
 
     <section>
@@ -78,7 +78,7 @@
                   <td valign="middle" align="center">
                     <p>
                       <img
-                        src="@/assets/fabric/silk_twill.png"
+                        src="@/assets/img/fabric/silk_twill.png"
                         alt=""
                         width="198"
                         height="180"
@@ -90,7 +90,7 @@
                     <p>
                       <img
                         title="silk georgette.png"
-                        src="@/assets/fabric/silk_ggt.png"
+                        src="@/assets/img/fabric/silk_ggt.png"
                         width="198"
                         height="180"
                         alt="silk georgette.png"
@@ -101,7 +101,7 @@
                     <p>
                       <img
                         title="Modal Silk.png"
-                        src="@/assets/fabric/silk_modal.png"
+                        src="@/assets/img/fabric/silk_modal.png"
                         width="198"
                         height="180"
                         alt="Modal Silk.png"
@@ -140,7 +140,7 @@
                     <p>
                       <img
                         title="silk chiffon.png"
-                        src="@/assets/fabric/silk_chiffon.png"
+                        src="@/assets/img/fabric/silk_chiffon.png"
                         width="198"
                         height="180"
                         alt="silk chiffon.png"
@@ -151,7 +151,7 @@
                     <p>
                       <img
                         title="silk crepe de chine.png"
-                        src="@/assets/fabric/silk_cdc.png"
+                        src="@/assets/img/fabric/silk_cdc.png"
                         width="198"
                         height="180"
                         alt="silk crepe de chine.png"
@@ -168,7 +168,7 @@
                     <p>
                       <img
                         title="silk cotton.png"
-                        src="@/assets/fabric/silk_cotton.png"
+                        src="@/assets/img/fabric/silk_cotton.png"
                         width="198"
                         height="180"
                         alt="silk cotton.png"
@@ -179,7 +179,7 @@
                     <p>
                       <img
                         title="silk habotai.png"
-                        src="@/assets/fabric/silk_habotai.png"
+                        src="@/assets/img/fabric/silk_habotai.png"
                         width="198"
                         height="180"
                         alt="silk habotai.png"
@@ -212,7 +212,7 @@
                     <p>
                       <img
                         title="Silk Wool.png"
-                        src="@/assets/fabric/silk_wool.png"
+                        src="@/assets/img/fabric/silk_wool.png"
                         width="198"
                         height="180"
                         alt="Silk Wool.png"
@@ -223,7 +223,7 @@
                     <p>
                       <img
                         title="silk stripe satin.png"
-                        src="@/assets/fabric/silk_stripe_satin.png"
+                        src="@/assets/img/fabric/silk_stripe_satin.png"
                         width="198"
                         height="180"
                         alt="silk stripe satin.png"
@@ -240,7 +240,7 @@
                     <p>
                       <img
                         title="modal cashmere.png"
-                        src="@/assets/fabric/modal_cashmere.png"
+                        src="@/assets/img/fabric/modal_cashmere.png"
                         width="198"
                         height="180"
                         alt="modal cashmere.png"
@@ -251,7 +251,7 @@
                     <p>
                       <img
                         title="modal wool.png"
-                        src="@/assets/fabric/modal_wool.png"
+                        src="@/assets/img/fabric/modal_wool.png"
                         width="198"
                         height="180"
                         alt="modal wool.png"
@@ -290,7 +290,7 @@
                     <p>
                       <img
                         title="cotton.png"
-                        src="@/assets/fabric/100_cotton.png"
+                        src="@/assets/img/fabric/100_cotton.png"
                         width="198"
                         height="180"
                         alt="cotton.png"
@@ -307,7 +307,7 @@
                     <p>
                       <img
                         title="Wool.png"
-                        src="@/assets/fabric/100_wool.png"
+                        src="@/assets/img/fabric/100_wool.png"
                         width="198"
                         height="180"
                         alt="Wool.png"

@@ -107,6 +107,10 @@
 
 
 <style  scoped>
+#app{
+  overflow-x: hidden;
+}
+
 #router-link {
   display: inline-block;
   width: 100px;

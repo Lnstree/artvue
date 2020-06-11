@@ -1,7 +1,7 @@
 <template>
    <div id="news-container">
         <div>
-            <img src="@/assets/news/cover1.jpg" alt="">
+            <img src="@/assets/img/cover/200_800.jpg" alt="">
         </div>
 
         <section>

@@ -1,7 +1,8 @@
 <template>
    <div id="news-container">
-        <div>
-            <img src="@/assets/news/cover1.jpg" alt="">
+
+        <div class="crop">
+            <img src="@/assets/img/cover/200_800.jpg" alt="">
         </div>
 
         <section>
@@ -129,9 +130,11 @@ export default {
 <style>
 
 
+
 #news-container{
     margin-left: 0;
     margin-right: 0;
+    overflow: hidden;
 }
 
 /* #content{
