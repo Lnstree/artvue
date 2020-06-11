@@ -104,7 +104,7 @@ let handler = (self, params, res)=>{
     let index = params.index
     let items = data.items
 
-    self.$data.page_info  = pageData(index, 5, items);
+    self.$data.page_info  = pageData(index,  12, items);
     self.$data.news_tags  = data.class_names
     self.$data.news_info  = data;
 
