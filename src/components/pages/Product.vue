@@ -100,7 +100,7 @@ let handler = (self, params, res)=>{
     let data = res.data.content;
     var tags = [];
     let index = params.index
-    self.$data.page_info  = pageData(index, 5, data);
+    self.$data.page_info  = pageData(index, 9, data);
     self.$data.product_info = data;
 }
 

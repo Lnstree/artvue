@@ -40,8 +40,8 @@
         </div>
         <div id="show">
           <video
+            controls
             preload="metadata"
-            autoplay="true"
             muted=""
             poster="https://img.alicdn.com/imgextra/i2/6000000005797/O1CN01mQjaLU1sh4WgZ9Zkl_!!6000000005797-0-tbvideo.jpg"
             playsinline=""
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <h3 class="section_h3">Products</h3>
+    <h3 class="product">Products</h3>
     <div id="product">
       <div class="column">
         <div class="gateway-caption-group">
@@ -67,22 +67,21 @@
             />
           </div>
           <h1 class="">
-            Custom Silk Scarf
+            <span>Custom Silk Scarf</span>
           </h1>
-
-          <div class="product_content">
+          <!-- <div class="product_content">
             Natural Silk Neck Scarves,Black Silk Twill Kerchief Scarves,
             Houndstooth Silk Twill Wrap Scarf, Bag Twilly Scarf,Multifunction
             Silk Scarf,Silk Pleated Scarf,Coral Silk Chiffon Scarf, Neck
             Decoration Silk Scarf
-          </div>
+          </div> -->
           <div class="learnmore">
             <router-link to="/product/Custom Silk Scarf/page/1">Learn more</router-link>
           </div>
         </div>
       </div>
 
-      <div class="column ">
+      <div class="column">
         <div class="gateway-caption-group">
           <div>
             <img alt="Silk Shawl" 
@@ -92,18 +91,18 @@
             <span>Silk Shawl</span>
           </h1>
 
-          <div class="product_content">
+          <!-- <div class="product_content">
             Elegant Silk Shawl, Silk Georgette Scarf, Oversized Sunscreen Shawl,
             Female Silk Large Square Scarf, Hand Print Silk Hijab, Belt Pattern
             Silk Square Headscarf, Infinity Scarves for Women
-          </div>
+          </div> -->
           <div class="learnmore">
             <router-link to="/product/Silk Shawl/page/1">Learn more</router-link>
           </div>
         </div>
       </div>
 
-      <div class="column ">
+      <div class="column">
         <div class="gateway-caption-group">
           <div>
             <img alt="Cashmere Wool Scarf" 
@@ -112,11 +111,11 @@
           <h1 class="">
             <span>Cashmere Wool Scarf</span>
           </h1>
-          <div class="product_content">
+          <!-- <div class="product_content">
             Cashmere Wool Scarf, Wool Scarf, Cotton Scarf, Silk Ascot Jacquard
             Necktie, Fringed Cashmere Muffler, Women’s Pure Pashmina Stole,
             Winter Cashmere Blanket Scarf, Cream Cashmere Wrap
-          </div>
+          </div> -->
 
           <div class="learnmore">
             <router-link to="/product/Cashmere Wool Scarf/page/1">Learn more</router-link>
@@ -124,7 +123,7 @@
         </div>
       </div>
 
-      <div class="column ">
+      <div class="column">
         <div class="gateway-caption-group">
           <div>
             <img alt="Pajamas" src="@/assets/img/home_product/pajamas.jpg" />
@@ -134,11 +133,11 @@
             <span>Pajamas</span>
           </h1>
 
-          <div class="product_content">
+          <!-- <div class="product_content">
             Digital Printing Silk Pajamas,Lover Pajama Set,Charmeuse Silk
             Pajama, Plain Dyed Silk Pajama,Silk Nightgown,Silk Sleep Wear,
             Couple Silk Pajama,Family Silk Pajamas,Long Sleeve Sleep Wear
-          </div>
+          </div> -->
           <div class="learnmore">
             <router-link to="/product/Pajamas/page/1">Learn more</router-link>
           </div>
@@ -154,18 +153,18 @@
           <h1 class="">
             Custom Tie
           </h1>
-          <div class="product_content">
+          <!-- <div class="product_content">
             Narrow Wool Like Men Tie,Private Label Silk Necktie,Wedding Silk Men
             Tie, Wool Imitation Student Tie For School,Silk Ascot Jacquard
             Necktie, Cartoon Design Silk Necktie,Woven Silk Tie
-          </div>
+          </div> -->
           <div class="learnmore">
             <router-link to="/product/Custom Tie/page/1">Learn more</router-link>
           </div>
         </div>
       </div>
 
-      <div class="column ">
+      <div class="column">
         <div class="gateway-caption-group">
           <div>
             <img alt="Wholesale Scarves" src="@/assets/img/home_product/wholesale_scarves.jpg" />
@@ -173,17 +172,17 @@
           <h1 class="">
             <span>Wholesale Scarves</span>
           </h1>
-          <div class="product_content">
+          <!-- <div class="product_content">
             Cream Cashmere Wrap, Beach Cover Up, Bikini Beach Scarf, Polyester
             Swimwear, Resortstyle Swimwear, Silk Feeling Satin Hijab, Long
             Chiffon Scarf For Gift
-          </div>
+          </div> -->
           <div class="learnmore">
             <router-link to="/product/Wholesale Scarves/page/1">Learn more</router-link>
           </div>
         </div>
       </div>
-      <div class="column ">
+      <div class="column">
         <div class="gateway-caption-group">
           <div>
             <img alt="Sleep Mask" src="@/assets/img/home_product/sleepmask.jpg" />
@@ -192,17 +191,17 @@
           <h1 class="project_class">
             <span>Sleep Mask</span>
           </h1>
-          <div class="product_content">
+          <!-- <div class="product_content">
             Own Design Silk Eye Night Cover,Natural Sleep Mask,22MM Silk Satin
             Eye Mask, Embroid Eye Mask, Adjustable Eye Mask, Silk Eye Shade,Silk
             Satin Eye Mask, Silk Night Mask,LOGO Silk Eye Mask
-          </div>
+          </div> -->
           <div class="learnmore">
             <router-link to="/product/Sleep Mask/page/1">Learn more</router-link>
           </div>
         </div>
       </div>
-      <div class="column ">
+      <div class="column">
         <div class="gateway-caption-group">
           <div>
             <img alt="Men Scarf" src="@/assets/img/home_product/tie.jpg" />
@@ -210,12 +209,11 @@
           <h1 class="">
             <span>Men Scarf</span>
           </h1>
-          <div class="product_content">
+          <!-- <div class="product_content">
             Luxurious Wedding Men Handkerchief, Double Sides Print Silk Ascot
             Cravat, Men Silk Satin Cravat, Breathable Lightweight Neckerchief,
             Silk Pocket Handkerchiefs, Men's Small Neck Scarf
-          </div>
-
+          </div> -->
           <div class="learnmore">
             <router-link to="/product/Men Scarf/page/1">Learn more</router-link>
           </div>
@@ -226,7 +224,7 @@
     
     <div id="info">
     <div id="news">
-    <h3>News</h3>
+    <h3 class="info">News</h3>
       <ul id="news-list">
         <li v-for="info in news_info">
           <router-link v-bind:to="'/news/' + info.id">{{
@@ -238,7 +236,7 @@
     </div>
 
     <div id="news">
-    <h3 >Knowledge</h3>
+    <h3 class="info" >Knowledge</h3>
       <ul id="news-list">
         <li v-for="info in news_info">
           <router-link v-bind:to="'/news/' + info.id">{{
@@ -390,6 +388,17 @@ export default {
   z-index: 120;
 }
 
+h3.product{
+    font-size: 2.2em;
+    margin-left: 5%;
+    color: black;
+}
+
+h3.info{
+    font-size: 2.2em;
+    color: black;
+}
+
 #info {
   display: flex;
   width: 100%;
@@ -402,10 +411,6 @@ export default {
   margin-left: 5%;
 }
 
-#news h3{
-  margin-top: 0;
-  padding-bottom: 20px;
-}
 
 #news li {
   border-bottom: solid 1px #eee;
