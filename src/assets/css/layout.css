@@ -157,19 +157,32 @@ button.newssearchbtn, input.newssearchfield[type=text] {
 }
 
 
-#show{
-    padding-left: 60px;
-    position: relative;
-    padding: 4px;
-    height: auto;
-    /* max-width: 1280px; */
-    float: right;
+@media screen and (max-width: 1600px){
+    #show{
+        visibility: hidden;
+    }
+    #show video{
+        height: 400px;
+        width: 0px;
+    }
 }
 
-#show video{
-    height: 400px;
-    width: auto;
+@media screen and (min-width: 1600px){
+    #show{
+        padding-left: 60px;
+        position: relative;
+        padding: 4px;
+        height: auto;
+        /* max-width: 1280px; */
+        float: right;
+    }
+
+    #show video{
+        height: 400px;
+        width: auto;
+    }
 }
+
 
 
 #company{
@@ -379,7 +392,8 @@ section:after {
     /* text-decoration: underline; */
 }
 
-.section_h3{
+h3.product{
+    font-size: 2.5em;
     margin-left: 5%;
 }
 
@@ -391,14 +405,11 @@ section:after {
 .bg-image{
     display: block;
     height: 400px;
-    /* background-size: cover; */
-    /* background-image:  url('../as_bg2.jpg');  */
     background-image:  url('../about.png'); 
     background-color: transparent; 
-    background-position: 50% 50%;
+    background-position: 50% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    /* background-size: cover; */
 } 
 
 
