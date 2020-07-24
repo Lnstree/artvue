@@ -73,7 +73,6 @@
               <li>
                 <router-link to="/news/page/1" class="level1">News</router-link>
               </li>
-              <li><a href="" class="level1">Knowledge</a></li>
               <li>
                 <router-link to="/contact" class="level1"
                   >Contact Us</router-link
@@ -171,12 +170,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div id="copyright">
-        <center>
-          Copyright@2020 Hangzhou Huacuiyuan Silk Scarf Factory. All Rights
-          Reserved.
-        </center>
       </div>
     </footer>
   </div>

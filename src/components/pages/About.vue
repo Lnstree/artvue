@@ -35,9 +35,6 @@
                     <p> <strong>Free sample swatches</strong> are available for you to check the quality of material, printing and hem. Please feel free to contact us if any interest.</p>
                     <p> <strong>Processing:</strong> Digital printing, screen printing, hand painting and dyeing.</p>
                     <img src="@/assets/process.jpg"/>
-
-                    <h2>Our Customers</h2>
-                    <img src="@/assets/custom.jpg" style="height:300px; width:800px" />
                 </div>
             </div>
         </div>
