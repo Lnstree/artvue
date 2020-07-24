@@ -42,6 +42,26 @@
           </div>
         </div>
       </div>
+      <div id="read">
+        <div id="mms2">
+          <h3>Brand Orgin</h3>
+          <p>
+            Hangzhou HuaCuiYuan Silk Co., Ltd established in 2005. <br />
+            We have experienced in supplying scarves and ties over 20 years.
+            <br />
+            Our company is specialized in ODM&OEM high quality scarves, <br />
+            ties and wholesale of popular designs. <br />
+            "Quality first, never second" is our principle. <br />
+            Top quality material, advanced technology and superior service,
+            <br />
+            have attracted more than thousands of customers from all over the
+            world. <br />
+          </p>
+          <div>
+            <router-link to="/about" id="company">ABOUT US</router-link>
+          </div>
+        </div>
+      </div>
     </div>
 
     <h3 class="product">Products</h3>

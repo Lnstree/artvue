@@ -147,10 +147,18 @@ button.newssearchbtn, input.newssearchfield[type=text] {
 #read{
     /* display: inline-block; */
     display: inline-flex; 
-    background-color: #fbf6ef;
 }
 
 #mms {
+    background-color: #fbf6ef;
+    font-family: "Stag Sans Light";
+    padding-right: 4rem;
+    padding-left: 2.25rem;
+    float: left;
+}
+
+#mms2 {
+    background-color: #fbf6ef;
     font-family: "Stag Sans Light";
     padding-right: 4rem;
     padding-left: 2.25rem;
